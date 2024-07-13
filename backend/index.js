@@ -26,5 +26,5 @@ app.use("/users", usersRoute);
 
 app.listen(PORT, async () => {
   await connectDB();
-  console.log(`server running at http://localhost:${PORT}`);
+  console.log(`server  running at http://localhost:${PORT}`);
 });
